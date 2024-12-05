@@ -18,5 +18,6 @@ void	ft_lstadd_back(List **list, List *new);
 void	ft_lstfree(List **list);
 void	ft_printlst(List *list);
 void	ft_sortlst(List	*list);
+void    make_lists(char *data, List **list1, List **list2);
 
 #endif
